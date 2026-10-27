@@ -1,0 +1,30 @@
+{
+  "name": "mediconnect-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "mediconnect",
+    "express",
+    "mongodb",
+    "ca-03"
+  ],
+  "author": "MediConnect Team",
+  "license": "ISC",
+  "description": "Backend API for MediConnect Patient & Appointment Management System",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.7.0",
+    "mongodb-memory-server": "^11.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
